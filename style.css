@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #343434;
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+    margin-top: 60px;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+p, h1, h2, h3 {
+    margin: 0px;
+}
+p {
+    font-size: 20px;
+    line-height: 1.3;
+}
+.menu {
+    display: flex;
+    gap: 66px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu a {
+    background: #3D3D3D;
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: white;
+}
+
+.green-destaque {
+    color: #3C9044;
+}
+.conteudo {
+    display: grid; /*sempre que quero mexer no grid, tenho que colocar o display grid*/
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+}
+.conteudoxbox {
+    color: white;
+    background-color: #3D3D3D;
+    padding: 40px;
+    text-align: right;
+    position: relative;
+    display: grid;
+    gap: 20px;
+    align-content: center;
+    justify-items: end;
+}
+.xbox {
+    border-radius: 6px;
+}
+.detalhe {
+    width: 4px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+.botao {
+    background-color: #3C9044;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+}
+.subtitulo {
+    font-size: 64px;
+    text-transform: uppercase;
+    color: rgba(65, 88, 70, 0.671);
+    text-align: right;
+    padding: 40px;
+    align-self: center;
+
+}
+.vantagens {
+    background-color: #3D3D3D;
+    padding: 30px;
+}
+.vantagens-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 15px 30px;
+    padding: 20px;
+}
+.vantagens h3 {
+    color: #3C9044;
+}
+.vantagens-item p {
+    color: white;
+    grid-column: 2;
+}
+
+.rodape {
+    color: white;
+}
